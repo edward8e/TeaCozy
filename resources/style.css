@@ -15,6 +15,7 @@ header{
   left: 0px;
   top: 0px;
   border-bottom: 1px solid white;
+  z-index: 5;
 }
 header img{
   display: flex;
@@ -30,4 +31,90 @@ nav a{
   text-decoration: underline;
   color: white;
   padding: 20px 10px;
+}
+
+
+main{
+  margin-top: 70px;
+}
+h2, h3, h4{
+  margin: 0px;
+  padding: 10px;
+}
+/*This is so you can see the border*/
+/*.section1, .section2, .section3{
+    border: 1px solid white;
+}*/
+
+.mainbody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1{
+  background-image: url("img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-text{
+  background-color: black;
+  width: 100%;
+}
+.section2{
+  height: 700px;
+  padding-top: 70px;
+}
+.tea-month{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+.item-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+}
+.section3{
+padding-top: 70px;
+height: 500px;
+background-image: url("img-locations-background.jpg");
+}
+.locations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+}
+.square-item-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square-item{
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px 0px 20px;
+}
+.contact{
+  height: 200px;
+}
+footer{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 20px;
 }
